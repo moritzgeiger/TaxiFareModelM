@@ -1,74 +1,8 @@
-# Data analysis
-- Document here the project: TaxiFareModelM
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+**Taxi Fare Challenge (Kaggle)**
+This is a Le Wagon challenge aiming to estimate the taxi fare in NYC based on input data from Kaggle.
 
-Please document the project the better you can.
+The repository includes the whole workflow of preprocessing and scaling data to finding an appropriate model and deploying the predictions to heroku. 
 
-# Startup the project
+The final app can be visited on: <a href='https://mg-taxifare-predictor.herokuapp.com/'>mg-taxifare-predictor.herokuapp.com</a>
 
-The initial setup.
-
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
-
-Unittest test:
-```bash
-make clean install test
-```
-
-Check for TaxiFareModelM in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/TaxiFareModelM`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "TaxiFareModelM"
-git remote add origin git@github.com:{group}/TaxiFareModelM.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-TaxiFareModelM-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/TaxiFareModelM` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/TaxiFareModelM.git
-cd TaxiFareModelM
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-TaxiFareModelM-run
-```
+It includes a map with the point of the pickup location. 
